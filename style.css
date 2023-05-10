@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.sidebar{
+    background-color: rgb(56, 55, 55);
+    width: 300px;
+    font-family: 'Fira Sans', sans-serif;
+    height: max-content;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding-top: 33px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 80vw;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 23px;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+
+.infoContainer{
+    height: 45vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.myPic img{
+    width: 201px;
+    height: 45vh;
+}
+
+.myInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .myPic{
+    display: none;
+} */
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+    color: aqua;
+}
+
+.expItem{
+    margin: 20px;
+}
+
+h1{
+    margin: 23px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h2{
+    margin: 20px;
+}
+
+h3{
+    margin: 10px;
+}
+.skillContainer{
+    padding: 20px;
+}
+
+.skillItem{
+    display: flex;
+    /* align-items: center; */
+    /* margin: 10px; */
+}
+.progress{
+    width: 300px;
+    height: 8px;
+    margin: 10px;
+    background-color: red;
+    border: 2px solid white;
+}
+
+.eighty{
+    width: 240px;
+    background-color: aqua;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10 px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 290px;
+}
+
+@media (max-width: 1245px) {
+    .myPic{
+        display: none;
+    }
+}
